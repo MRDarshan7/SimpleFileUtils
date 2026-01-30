@@ -1,7 +1,7 @@
 [project]
 name = "simple-file-utils"
 version = "0.1.0"
-description = "Beginner friendly file utility library."
+description = "A beginner-friendly library for simplified file handling in Python."
 readme = "README.md"
 authors = [
   { name = "M.R. Darshan" }
