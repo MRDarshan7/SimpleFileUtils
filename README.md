@@ -1,9 +1,9 @@
-# Simple File Utils
+# 📁 Simple File Utils
 
 A lightweight Python library for simplified file handling operations.
 It provides easy-to-use functions for working with text, CSV, JSON, and binary files.
 
-### Features
+### ✨ Features
 
 - Read / Write / Append TXT files
 - Read / Write / Append CSV files
@@ -17,20 +17,20 @@ It provides easy-to-use functions for working with text, CSV, JSON, and binary f
 
 ---
 
-### Installation
+### 📦 Installation
 
 ```bash
 pip install simple-file-utils
 ```
 
 
-### Quickstart
+### 🚀 Quickstart
 ```bash
 import simple_file_utils as sfu
 ```
 ---
 
-## TXT FILE FUNCTIONS
+## 📄 TXT FILE FUNCTIONS
 
 `write_txt(file_path, data)`
 
@@ -70,7 +70,7 @@ sfu.append_txt("example.txt", "\nNew line added")
 ```
 ---
 
-## CSV FILE FUNCTIONS
+## 📊 CSV FILE FUNCTIONS
 `write_csv(file_path, rows)`
 
 Writes a list of rows to a CSV file.
@@ -104,7 +104,7 @@ sfu.append_csv("data.csv", [["Alex", 22]])
 ```
 ---
 
-## JSON Functions
+## 🧾 JSON Functions
 `write_json(file_path, data)`
 
 Writes a dictionary or list to a JSON file.
@@ -129,7 +129,7 @@ print(data)
 ```
 ---
 
-## Binary (Pickle) Functions
+## 💾 Binary Functions
 `write_bin(file_path, data)`
 
 Saves a Python object to a binary file.
@@ -149,7 +149,7 @@ print(numbers)
 ```
 ---
 
-## Utility Functions
+## 🛠 Utility Functions
 `exists(file_path)`
 
 Checks if file exists.
@@ -186,7 +186,7 @@ Returns file extension in lowercase.
 print(sfu.get_extension("data.csv"))   # .csv
 ```
 ---
-## Why Use This Library?
+## 🎯 Why Use This Library?
 
 - Reduces repetitive file-handling boilerplate
 - Beginner-friendly and easy to understand
