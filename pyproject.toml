@@ -4,9 +4,25 @@ version = "0.1.0"
 description = "A beginner-friendly library for simplified file handling in Python."
 readme = "README.md"
 authors = [
-  { name = "M.R. Darshan" }
+  { name = "M R Darshan" }
 ]
 requires-python = ">=3.8"
+license = {text = "MIT"}
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Utilities",
+]
+
 
 [build-system]
 requires = ["setuptools>=61.0"]
